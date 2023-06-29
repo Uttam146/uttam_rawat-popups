@@ -1,0 +1,161 @@
+.Top {
+    position: fixed;
+    top: 1%;
+    left: 44%
+}
+.showTop {
+    animation: slide-bottom 0.4s ease-in-out, fade-in 0.4s ease-in-out;
+}
+.hideTop {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+
+.TopRight {
+    position: fixed;
+    top: 1%;
+    right: 1%;
+}
+.showTopRight {
+    animation: slide-right 0.4s ease-in-out, fade-in 0.4s ease-in-out;
+}
+.hideTopRight {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+
+.TopLeft {
+    position: fixed;
+    top: 1%;
+    left: 1%;
+}
+.showTopLeft {
+    animation: slide-left 0.4s ease-in-out, fade-in 0.4s ease-in-out;
+}
+.hideTopLeft {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+
+.Bottom {
+    position: fixed;
+    bottom: 1%;
+    left: 44%;
+}
+.showBottom {
+    animation: slide-top 0.4s ease-in-out;
+}
+.hideBottom {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+
+.BottomLeft {
+    position: fixed;
+    bottom: 1%;
+    left: 1%;
+}
+.showBottomLeft {
+    animation: slide-left 0.4s ease-in-out, fade-in 0.4s ease-in-out;
+}
+.hideBottomLeft {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+
+.BottomRight {
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+}
+.showBottomRight {
+    animation: slide-right 0.4s ease-in-out, fade-in 0.4s ease-in-out;
+}
+.hideBottomRight {
+    display: none;
+    pointer-events: none;
+    inset: 0;
+    animation: fade-out 1s;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes slide-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(2%);
+    }
+}
+
+@keyframes slide-right {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-100%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+}
+
+@keyframes slide-top {
+    0% {
+        opacity: 0;
+        transform: translateY(100%);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(1%);
+    }
+}

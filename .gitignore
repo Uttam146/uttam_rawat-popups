@@ -3,7 +3,10 @@
 # dependencies
 /node_modules
 /.pnp
+/src/package/build
+/src/package/node_modules
 .pnp.js
+
 
 # testing
 /coverage

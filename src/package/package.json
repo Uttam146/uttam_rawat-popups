@@ -1,0 +1,35 @@
+{
+  "name": "@uttam_rawat/popups",
+  "version": "10.2.1",
+  "description": "Now you can make cool animation popups/alerts",
+  "main": "./build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uttam146/uttam_rawat-popups"
+  },
+  "keywords": [
+    "npm",
+    "popups",
+    "alerts",
+    "windowalerts"
+  ],
+  "author": "uttam_rawat",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lottie-react": "^2.4.0"
+  }
+}
